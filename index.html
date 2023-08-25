@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap">
+    <style>
+        body {
+            font-family: "Source Sans Pro", sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+           
+        }
+        h1 {
+            text-align: center;
+            font-size: 66px;
+            font-family: "Source Sans Pro", sans-serif; 
+            margin-top: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 30px;
+         }
+
+         li {
+            margin-top: 20px;
+            text-align: center;
+         }
+
+         a {
+            text-decoration: none; 
+            color: #2b2a2a;
+         }
+
+         a:hover {
+            color: #666262;
+         }
+
+         .recipe-image {
+            width: 50%;
+            height: auto;
+            cursor: pointer;
+         }
+
+         .recipe-description {
+            font-size: 22px;
+            margin-top: 10px;
+            text-align: center;
+         }
+    </style>
+</head>
+<body>
+    <h1>Odin Recipes</h1>
+        <ul>
+            <li>
+                <a href="recipes/cookies.html">
+                    <img class="recipe-image" src="/odin-images/cookies.jpeg" alt="Brown Butter Chocolate Chip Cookies Recipe">
+                    <p class="recipe-description">Brown Butter Chocolate Chip Cookies</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="recipes/brownies.html">
+                    <img class="recipe-image" src="/odin-images/brownies.jpeg" alt="Brownies Recipe">
+                    <p class="recipe-description">Brownies</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="recipes/cheesecake.html">
+                    <img class="recipe-image" src="/odin-images/cheesecake.jpeg" alt="No Bake Cheesecake Recipe">
+                    <p class="recipe-description">No Bake Cheesecake</p>
+                </a>
+            </li>
+        </ul>
+</body>
+</html>
