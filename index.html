@@ -4,80 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap">
-    <style>
-        body {
-            font-family: "Source Sans Pro", sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-           
-        }
-        h1 {
-            text-align: center;
-            font-size: 66px;
-            font-family: "Source Sans Pro", sans-serif; 
-            margin-top: 10px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin-top: 0px;
-         }
-
-         li {
-            margin-top: 20px;
-            text-align: center;
-         }
-
-         a {
-            text-decoration: none; 
-            color: #2b2a2a;
-         }
-
-         a:hover {
-            color: #666262;
-         }
-
-         .recipe-image {
-            width: 100%;
-            height: 450px;
-            cursor: pointer;
-         }
-
-         .recipe-description {
-            font-size: 22px;
-            margin-top: 10px;
-            text-align: center;
-         }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Odin Recipes</h1>
-        <ul>
-            <li>
-                <a href="recipes/cookies.html">
-                    <img class="recipe-image" src="/images/cookies.jpeg" alt="Brown Butter Chocolate Chip Cookies Recipe">
-                    <p class="recipe-description">Brown Butter Chocolate Chip Cookies</p>
-                </a>
-            </li>
+    <p>Welcome to Odin Recipes, your one-stop shop for delectable treats! Discover a wide range of simple recipes, from sweet potato pie to French toast. Our collection caters to every taste with simple steps and clear visuals. Make your kitchen a sweet haven by joining us on a flavorful journey with Odin Recipes!</p>
+    <ul>
+        <li>
+            <a href="recipes/brownies.html">
+                <img src="recipes/brownies.jpeg">
+                <span>Brownies</span>
+            </a>
+        </li>
+            
+        <li>
+            <a href="recipes/cookies.html">
+                <img src="recipes/cookies.jpeg">
+                <span>Chocolate Chip Cookies</span>
+            </a>
+        </li>
 
-            <li>
-                <a href="recipes/brownies.html">
-                    <img class="recipe-image" src="/images/brownies.jpeg" alt="Brownies Recipe">
-                    <p class="recipe-description">Brownies</p>
-                </a>
-            </li>
+        <li>
+            <a href="recipes/frenchtoast.html">
+                <img src="recipes/frenchtoast.jpeg">
+                <span>French Toast</span>
+            </a>
+        </li>
 
-            <li>
-                <a href="recipes/cheesecake.html">
-                    <img class="recipe-image" src="/images/cheesecake.jpeg" alt="No Bake Cheesecake Recipe">
-                    <p class="recipe-description">No Bake Cheesecake</p>
-                </a>
-            </li>
-        </ul>
+        <li>
+            <a href="recipes/sweetpotatopie.html">
+                <img src="recipes/sweetpotatopie.jpeg">
+                <span>Sweet Potato Pie</span>
+            </a>
+        </li> 
+    </ul>
 </body>
 </html>

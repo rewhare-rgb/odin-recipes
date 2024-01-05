@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    font-family: "Source Pro Sans","Helvetica Neue",sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+p {
+    font-family: "Work Sans", "Helvetica Neue", sans-serif;
+    color: rgb(68, 66, 66);
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+img {
+    width: 280px;
+    height: 396px;
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul li { 
+    margin-bottom: 30px;
+}
+
+ul span {
+    display: block;
+}
+
+a {
+    font-family: "Work Sans", "Helvetica Neue", sans-serif;   
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(68, 66, 66);
+}
+
+a:visited {
+    color: rgb(68, 66, 66);
+}
+
+a:hover {
+    color: rgb(203, 46, 46);
+    text-decoration: none;
+}
+
+
+
